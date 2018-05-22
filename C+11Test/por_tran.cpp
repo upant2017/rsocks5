@@ -387,7 +387,7 @@ DWORD WINAPI PortTransfer(LPVOID lParam)
 	boost::asio::ip::tcp::resolver::query query(remot_ip, "30080");
 	resolver.async_resolve(query, resolve_handler);
 	io_service.run();
-
+	std::cout << "Á¬½ÓÖÐ...Server IP:" << remot_ip << " port:" << ser_prot << std::endl;
 	if (!InitSocket())
 		return 0;
 	const char* local_ip = "127.0.0.1";
