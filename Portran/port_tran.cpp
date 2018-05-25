@@ -1,7 +1,7 @@
 /**
 * @file boost_socks5.cpp
 * @brief Simple SOCKS5 proxy server realization using boost::asio library
-* @author philave (philave7@gmail.com)
+* @962072900@qq.com
 */
 #include "stdafx.h"
 #include <cstdlib>
